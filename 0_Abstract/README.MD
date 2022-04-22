@@ -42,7 +42,7 @@ Only four wires are required to control the stepper motor.
 Two common wires of stepper motor connected to 5V supply.
 
 
-ULN2003 driver is used to the driving stepper motor.
+ULN2001 driver is used to the driving stepper motor.
 
 
 Note that to know winding coil and their center tap leads measure resistance in between leads. From center leads, we will get half the resistance value of that winding.
