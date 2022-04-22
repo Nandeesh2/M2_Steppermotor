@@ -141,6 +141,27 @@ ULN2003 driver is used to the driving stepper motor.
 
 Note that to know winding coil and their center tap leads measure resistance in between leads. From center leads, we will get half the resistance value of that winding.
 
+**Full step sequence**
+
+Step	 A	B	C	D
+
+
+  1	1	0	0	1
+  2	1	1	0	0
+  3	0	1	1	0
+  4	0	0	1	1
+ 
+Half step sequence
+Step	A	B	C	D
+1	1	0	0	1
+2	1	0	0	0
+3	1	1	0	0
+4	0	1	0	0
+5	0	1	1	0
+6	0	0	1	0
+7	0	0	1	1
+8	0	0	0	1
+
 
 
 
