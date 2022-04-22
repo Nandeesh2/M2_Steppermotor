@@ -109,7 +109,37 @@ simplify layout
 
 **atmega 328 microcontroller**
 
+The Atmel 8-bit AVR RISC-based microcontroller combines 32 KB ISP flash memory with read-while-write capabilities, 1 KB EEPROM, 2 KB SRAM, 23 general-purpose I/O lines, 32 general-purpose working registers, 3 flexible timer/counters with compare modes, internal and external interrupts, serial programmable USART, a byte-oriented 2-wire serial interface, SPI serial port, 6-channel 10-bit A/D converter (8 channels in TQFP and QFN packages), programmable watchdog timer with internal oscillator, and 5 software-selectable power-saving modes. The device operates between 1.8 and 5.5 volts. The device achieves throughput approaching 1 MIPS/MHz
 
+
+**working**
+
+Stepper motor is a brushless DC motor that divides the full rotation angle of 360° into a number of equal steps.
+
+
+The motor is rotated by applying a certain sequence of control signals. The speed of rotation can be changed by changing the rate at which the control signals are applied.
+
+
+Various stepper motors with different step angles and torque ratings are available in the market.
+
+A microcontroller can be used to apply different control signals to the motor to make it rotate according to the need of the application.
+
+For more information about Stepper Motor and how to use it, refer to the topic Stepper Motor in the sensors and modules section.
+
+
+Here we are going to interface 6 wires Unipolar Stepper Motor with ATmega32 controller.
+
+
+Only four wires are required to control the stepper motor. 
+
+
+Two common wires of stepper motor connected to 5V supply.
+
+
+ULN2003 driver is used to the driving stepper motor.
+
+
+Note that to know winding coil and their center tap leads measure resistance in between leads. From center leads, we will get half the resistance value of that winding.
 
 
 
