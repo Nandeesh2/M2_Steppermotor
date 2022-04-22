@@ -82,6 +82,32 @@ Disadvantages
 
 
 
+**ULN 2001 driver circuit**
+
+
+Features
+• Seven Darlingtons per package
+
+
+• Output current 500 mA per driver (600 mA
+peak)
+
+• Output voltage 50 V
+
+• Integrated suppression diodes for inductive
+loads
+
+
+• Outputs can be paralleled for higher current
+
+
+• TTL/CMOS/PMOS/DTL compatible inputs
+
+• Input pins placed opposite to output pins to
+simplify layout
+
+
+**atmega 328 microcontroller**
 
 
 
@@ -95,12 +121,8 @@ Disadvantages
 
 
 
-## Color Reference
 
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Example Color | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
-| Example Color | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
-| Example Color | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
-| Example Color | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
+
+
+
 
