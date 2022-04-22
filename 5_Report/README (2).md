@@ -146,21 +146,38 @@ Note that to know winding coil and their center tap leads measure resistance in 
 Step	 A	B	C	D
 
 
-  1	1	0	0	1
-  2	1	1	0	0
-  3	0	1	1	0
-  4	0	0	1	1
+  1	   1	0	0	1
+  
+  2	  1	1	0	0
+  
+  3  	0	1	1	0
+  
+  4 	0	0	1	1
  
-Half step sequence
+**Half step sequence**
+
+
 Step	A	B	C	D
-1	1	0	0	1
-2	1	0	0	0
-3	1	1	0	0
-4	0	1	0	0
-5	0	1	1	0
-6	0	0	1	0
-7	0	0	1	1
-8	0	0	0	1
+
+
+1	  1	0	0	1
+
+
+2	  1	0	0	0
+
+
+3	  1	1	0	0
+
+
+4  	0	1	0	0
+
+5 	0	1	1	0
+
+6 	0	0	1	0
+
+7 	0	0	1	1
+
+8	 0	0	0	1
 
 
 
