@@ -1,4 +1,5 @@
-## Requirements
+ ## low level requirements
+
 # Components required for the stepper motor operation
 stepper motor
 
@@ -11,7 +12,8 @@ one switch
 atmega 328 microcontroller
 
 simulide software (any latest version)
-
+ 
+ ## Research
 # stepper motor
 
 A stepper motor, also known as step motor or stepping motor, is a brushless DC electric motor that divides a full rotation into a number of equal steps. The motor's position can be commanded to move and hold at one of these steps without any position sensor for feedback (an open-loop controller), as long as the motor is correctly sized to the application in respect to torque and speed.
@@ -66,5 +68,50 @@ a device for making and breaking the connection in an electric circuit.
 The Atmel 8-bit AVR RISC-based microcontroller combines 32 KB ISP flash memory with read-while-write capabilities, 1 KB EEPROM, 2 KB SRAM, 23 general-purpose I/O lines, 32 general-purpose working registers, 3 flexible timer/counters with compare modes, internal and external interrupts, serial programmable USART, a byte-oriented 2-wire serial interface, SPI serial port, 6-channel 10-bit A/D converter (8 channels in TQFP and QFN packages), programmable watchdog timer with internal oscillator, and 5 software-selectable power-saving modes. The device operates between 1.8 and 5.5 volts. The device achieves throughput approaching 1 MIPS/MHz.
 
 ## simulide software any latest version
+
+## high level requirements
+1. Starting torque (N – m)
+
+2. Maximum speed (steps/second)
+
+3. Duty cycle
+
+4. Required power
+
+5. Load inertia
+
+6. Speed control
+
+7. Reversible motor
+
+8. Time to accelerate
+
+9. Time to decelerate
+
+10. Size and weight consideration.
+
+
+## SWOT analysis
+
+strength -Flexibility and provides a constant holding torque without the need for the motor to be powered
+
+weakness-The efficiency of the stepper motor is low.
+
+opputunites-  floppy disk drives, flatbed scanners, computer printers, plotters, slot machines, image scanners, compact disc drives, intelligent lighting, camera lenses, CNC machines, and 3D printers.
+
+threats- excessive current being sent to the device by the power supply.
+
+## 4Ws and 1H
+
+why- for precise positioning with a motor
+
+when-for precise positioning with a motor, such as hard disk drives, robotics, antennas, telescopes, and some toys. 
+
+where-floppy disk drives, flatbed scanners, computer printers, plotters.
+
+who-industrial applications
+
+how-A stepper motor is an electric motor whose main feature is that its shaft rotates by performing steps, that is, by moving by a fixed amount of degrees. This feature is obtained thanks to the internal structure of the motor, and allows to know the exact angular position of the shaft by simply counting how may steps have been performed, with no need for a sensor. This feature also makes it fit for a wide range of applications.
+
 
 
